@@ -41,19 +41,19 @@ function summaryTableHeader(header) {
     cell = document.createElement('th');
     cell.setAttribute("data-sorter", false);
     cell.colSpan = 7;
-    cell.innerHTML = "Response Times (ms)";
+    cell.innerHTML = "响应时间 (ms)";
     newRow.appendChild(cell);
 
     cell = document.createElement('th');
     cell.setAttribute("data-sorter", false);
     cell.colSpan = 1;
-    cell.innerHTML = "Throughput";
+    cell.innerHTML = "吞吐量";
     newRow.appendChild(cell);
 
     cell = document.createElement('th');
     cell.setAttribute("data-sorter", false);
     cell.colSpan = 2;
-    cell.innerHTML = "Network (KB/sec)";
+    cell.innerHTML = "网络 (KB/sec)";
     newRow.appendChild(cell);
 }
 
